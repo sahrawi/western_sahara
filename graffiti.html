@@ -1,0 +1,211 @@
+<html>
+<meta charset='UTF-8'>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+</head>
+<style>
+
+/*--MOBILE--*/
+
+
+@media only screen and (max-width: 600px){
+
+*{margin:0;padding:0;box-sizing:border-box;font-family: sans-serif;}
+p{font-size:1.3em;line-height:130%;margin-top:0.9em;}
+
+.smlBox{background:#1bb36323;}
+.bigBox{width:100%;height:42px;background:16bec7;}
+.bigBox img{padding:4px 10px;}
+.bigBox .smlBox{width:;height:200px;display:none;}
+.bigBox .smlBox{width:200px;height:200px;display:none;}
+.bigBox:hover .smlBox{width:100px;display:block;paddin-top:6px;}
+
+
+
+
+
+
+
+
+
+
+ul {list-style-type: none;margin: 0;padding: 0;}
+li {position:relative;display:nonze;}
+a {background: #16bec7;color: white;text-align: left; width:200px; text-decoration: none;background:#2cc;display:block;padding:12px;}
+li a:hover {background-color: #1aa; }
+ul ul {display: none;}
+li:hover > ul {display: block;position: absolute;left: 200px;top: 0px;right: 0;}
+li:hover > ul li {display:block;z-index:2;}
+li:hover > ul li a:hover{}
+
+.TopBar {width:100%;height:42px;background:#1aa;}
+.TopBar1 {width:100%;height:42px;background:#1aa;margin:0 auto;display:none;}
+
+.logoArea1 {width:100%;height:250px;background:#2cc;}
+.logoArea {width:100%;height:250px;background:#2cc;margin:0 auto;position:relative;}
+.logoArea img{width:140px;position:absolute;top:50px;left:40px;}
+
+
+
+
+.navArea {width:100%;height:40px;background:#16bec7;margin:0 auto; }
+nav {width:100%;height:40px;background:#16bec7;margin:0 auto;}
+
+.content {width:vh100;height:auto;background:#999;margin:0 auto;}
+
+.main{background:#eee;height:width:100%;float:left;padding:40px;}
+
+.panel{background:#ddd;height:auto;width:100%;float:right;padding:40px;}
+
+.footer {width:100%;height:250px;background:#999;margin:0 auto;padding:40px;}
+
+.sub {width:100%;height:150px;background:#555;margin:0 auto;padding:40px;}
+
+.bottom{width:100%;height:auto;overflow:hidden;}
+
+}
+
+
+
+
+ 
+/*--DESKTOP--*/
+@media only screen and (min-width: 600px){
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:sans-serif;}
+p{font-size:1.2em;line-height:130%;margin-top:0.9em;}
+ul {list-style-type: none;margin: 0;padding: 0;}
+
+li {float: left;width: 16.5%;position:relative;max-height:40px;white-space: nowrap;}
+li:last-child{float:right;}
+a {display: block;background: #16bec7;color: white;text-align: center; padding: 10px; text-decoration: none;}
+ul li a:hover {background-color: #1aa;}
+
+ul ul {display: none;}
+li:hover > ul {display: block;position: absolute;left: 0;top: 40px;right: 0;width:100%;}
+li:hover > ul li {float: none;width: 100%;}
+li:hover > ul li a:hover{background-color: #1aa;}
+
+
+.TopBar {width:100%;height:42px;background:#1aa;margin:0 auto;}
+
+.TopBar1 {width:1280px;height:42px;background:#1aa;margin:0 auto;}
+
+.logoArea1 {width:100&;height:250px;background:#2cc;margin:0 auto;}
+
+.logoArea {width:1280px;height:250px;background:#2cc;margin:0 auto;position:relative;}
+.logoArea img{width:140px;position:absolute;top:50px;left:40px;}
+
+.navArea {width:100%;height:40px;background:#16bec7;}
+nav {width:1280px;height:40px;background:#16bec7;margin:0 auto;}
+
+.content {width:1280px;height:100vh;background:white;margin:0 auto;overflow:hidden;}
+
+xcontent::after {content: "SUITABLE DESKTOP";FONT-SIZE:120px;}
+
+.main{background:#eee;height:100vh;width:70%;float:left;padding:40px;}
+
+.panel{background:#ddd;height:100vh;width:28%;float:right;padding:40px;overflow:hidden;}
+
+.footer {width:1280px;height:250px;background:#999;margin:0 auto; padding:40px;}
+
+.sub {width:1280px;height:150px;background:#555;margin:0 auto; padding:40px;}
+
+
+
+.bigBox img{display:none;}
+
+h1{margin-bottom:1em;}
+
+
+.bottom{width:1280px;height:auto;margin:0 auto; overflow:hidden;}
+
+
+.bigBox img{position: absolute;top:50%;left:40px;height:140px;}
+}
+
+
+
+</style>
+
+
+<body>
+<div class="TopBar" >
+<div class="TopBar1"></div>
+</div>
+
+<div class="logoArea1">
+<div class="logoArea"><img src="graffiti.png" ></div>
+</div>
+
+<div class="navArea">
+<div class="bigBox"><img src="burger.svg" height="40" class="white">
+<div class="smlBox">
+<nav>
+  <ul>
+    <li><a href="#">HOME</a></li>
+    <li><a href="#">NEWS</a>
+      <ul>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+      </ul>
+    </li>
+    <li><a href="#">OCCUPIED ZONES</a>
+      <ul>
+        <li><a href="#">item a long submenu</a></li>
+        <li><a href="#">item</a> </li>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+      </ul>
+    </li>
+    <li><a href="#">INTERNATIONAL</a></li>
+    <li><a href="#">PRESS</a>
+      <ul>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+        <li><a href="#">item</a></li>
+      </ul>
+    </li>
+    <li><a href="#">CONTACT US</a></li>
+  </ul>
+</nav>
+</div>
+</div>
+</div>
+
+<div class="content">
+
+<div class="main">
+<h1>Meteor exploded so brightly it triggered doorbell cams across Northern England</h1>
+<p>C’est en 1989 et dans la localité de SEDDOUK, située dans la vallée de la Soummam (wilaya de Bejaïa), que commence le somptueux périple de la société Amimer Energie, autrefois fondée par son propriétaire et visionnaire Mr Amar Boukheddami sous la dénomination "Etablissement Boukheddami" et versée dans la fabrication des postes à souder.</p>
+<p>La société a vite cerné le rôle qu’elle devrait jouer et les enjeux d’un secteur très sensible et stratégique pour le pays, l’Energie. Cette denrée indispensable à l’épanouissement d’un peuple, au développement d’un pays allait être le centre d’intérêt premier de la société. La société élargit ses activités et se développe autours des métiers de la fabrication et de l'installation de Groupes électrogènes de moyenne intensité, avec une nouvelle dénomination, elle devient la société Amimer Énergie®.</p>
+<p>Grâce à la vision et la persévérance de son fondateur, l'entreprise qui n'était au départ qu'une simple PME, commence à prendre de l'ampleur et à devenir un acteur majeur dans les équipements et solutions énergétiques en Algérie et dans la région de l’Afrique du nord et de l’Afrique subsaharienne.</p>
+<p>Aujourd’hui, la qualité, la rigueur, le sérieux de notre travail sont nos meilleurs atouts. Notre professionnalisme a permis à notre Groupe de devenir un acteur incontournable de la scène économique algérienne et de figurer parmi les fleurons des entreprises algériennes dans le secteur de l’énergie.</p>
+<p>Notre professionnalisme, notre savoir faire transcende les frontières et se place aujourd’hui parmi les pionniers de la région dans les solutions énergétiques les plus innovantes.</p>
+<p>Notre entreprise doit cette irrésistible et formidable ascension à toutes les femmes et à tous les hommes qui, dès le début, ont cru en elle et en leurs capacités d’aller toujours de l’avant. Ce noyau qui n’hésitera jamais de se surpasser pour apporter à nos client le service optimale et irréprochable au standards internationaux, de s’affranchir des sites et régions éloignées, isolées pour apporter ce brin d’espoir, cette lumière tant attendue à des populations démunies. Notre passion est vous apporter une source d’énergie, et nous innovons même si il faut l’apporter du vide !</p>
+<p>Nous offrons à nos clients une variété de solutions optimales étudiées à leurs besoins, allant de la simple fabrication de groupes électrogènes diesel ou gaz, à l’engineering et la réalisation de centrales électriques complexes et de grande capacité, fonctionnant par différentes sources d’énergies. Notre société demeure à la quête des meilleures solutions économiques pour nos clients, n’hésitant pas à innover en apportant des solutions de génération d’énergie à base de solaires, gaz, éolien et en hybridation de ces différentes sources.</p>
+<p>Nous restons centrés sur le besoin de nos clients et nos challenges sont mus par ses besoins.</p>
+<p>Residents in northern England and Scotland were treated to a spectacular celestial display this week when a suspected bolide exploded as it struck the Earth's atmosphere.</p>
+<p>The night skies over northern England exploded into light for a brief second courtesy of the huge flash, with residents marvelling at what it might be, anything from a military test to a crashing plane.</p>
+<p>Thankfully, several people received alerts of suspicious activity on their doorbell cameras, only to discover they had, in fact, managed to record the ethereal, extraterrestrial effulgence.</p>
+<p>I've seen meteors before but this one I was stunned by the colour, the length of the fireball and the length of time it was in the sky,&rdquo; said one stunned resident.</p>
+<p>Reports streamed in to the International Meteor Organization (IMO) and the UK Meteor Network from all over the northern UK about the celestial pyrotechnics display, which occurred at roughly 21:20 local time.</p>
+<p>Due to the velocity at which they strike the Earth&rsquo;s atmosphere, fragments larger than one millimetre have the capability to produce a bright flash as they streak through the heavens above,&rdquo; the IMO says, in describing these bolides.</p>
+<p>The hundreds of people across Northumberland who witnessed the event were perfectly positioned as it turns out the area holds Dark Sky Park status, meaning it has a particularly good view of such stunning spectacles, rivalled only by places like Death Valley and Big Bend Dark Sky Parks in the US.</p>
+<p>These areas are protected for their exceptional night-time skies so they can be used in astronomical, scientific and educational research.</p>
+<br>
+</div>
+<div class="panel"><p>A whole bunch of years ago, we posted on this idea here on CSS-Tricks. We figured it was about time to update that and do the subject justice.
+Imagine a scenario where you need to split a layout in half. Content on the left and content on the right. Basically two equal height columns are needed inside of a container. Each side takes up exactly half of the container, creating a distinct break between one. Like many things in CSS, there are a number of ways to go about this and we’re going to go over many of them right now!</p></div>
+</div>
+
+<div class="bottom">
+<div class="footer" >seee</div>
+<div class="sub">what</div>
+</div>
+</body>
+</html>
