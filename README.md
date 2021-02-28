@@ -1,4 +1,4 @@
-<div class="tip" markdown="1" style="background:yellow;padding:30px;">
+<div class="tip" markdown="1" style="background:#eee;padding:30px;margin:0;">
 # SAHRAWI ARAB DEMOCRATIC REPUBLIC
 The Sahrawi Arab Democratic Republic (/səˈrɑːwi/; SADR; also romanized with Saharawi; Arabic: الجمهورية العربية الصحراوية الديمقراطية‎ al-Jumhūrīyah al-'Arabīyah aṣ-Ṣaḥrāwīyah ad-Dīmuqrāṭīyah Spanish: República Árabe Saharaui Democrática) is a partially recognized de facto sovereign state located in the western Maghreb, which claims the non-self-governing territory of Western Sahara, but controls only the easternmost one-fifth of that territory. Between 1884 and 1975, Western Sahara was known as Spanish Sahara, a Spanish colony (later an overseas province). The SADR is one of the two African states in which Spanish is a significant language, the other being Equatorial Guinea.<br/>
 
