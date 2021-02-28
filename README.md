@@ -6,4 +6,5 @@ The SADR was proclaimed by the Polisario Front (a former socialist liberation fo
 
 </div>
 <div class="tip" markdown="1" style="background:#999;padding:30px;margin:0;">
+#LANGUAGE
 </div>
