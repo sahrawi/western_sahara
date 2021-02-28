@@ -5,3 +5,5 @@ The Sahrawi Arab Democratic Republic (/səˈrɑːwi/; SADR; also romanized with 
 The SADR was proclaimed by the Polisario Front (a former socialist liberation force which has since reformed its ideological and political views) on February 27, 1976, in Bir Lehlou, Western Sahara. The SADR government controls about 20–25% of the territory it claims.[6] It calls the territories under its control the Liberated Territories or the Free Zone. Morocco controls and administers the rest of the disputed territory, and calls these lands its Southern Provinces. The SADR government considers the Moroccan-held territory to be occupied territory, while Morocco considers the much smaller SADR-held territory to be a buffer zone.[citation needed] The claimed capital of the SADR is former Western Sahara capital El-Aaiún, while the temporary capital moved from Bir Lehlou to Tifariti in 2008. The seat of government is located in the Sahrawi refugee camps in Tindouf, Algeria. 
 
 </div>
+<div class="tip" markdown="1" style="background:#999;padding:30px;margin:0;">
+</div>
